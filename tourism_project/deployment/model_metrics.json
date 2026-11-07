@@ -1,0 +1,58 @@
+{
+  "trained_at_utc": "2026-11-07 13:53 UTC",
+  "library_versions": {
+    "xgboost": "2.1.4",
+    "scikit-learn": "1.5.2",
+    "pandas": "2.2.3"
+  },
+  "n_train": 3208,
+  "n_test": 803,
+  "buyer_share_train": 0.193,
+  "buyer_share_test": 0.193,
+  "best_params": {
+    "colsample_bytree": 0.6,
+    "learning_rate": 0.1,
+    "max_depth": 12,
+    "n_estimators": 400
+  },
+  "best_cv_f1": 0.7921,
+  "scale_pos_weight": 4.183,
+  "threshold": 0.5,
+  "train_metrics": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": 1.0
+  },
+  "test_metrics": {
+    "accuracy": 0.9465,
+    "precision": 0.9058,
+    "recall": 0.8065,
+    "f1": 0.8532,
+    "roc_auc": 0.9714
+  },
+  "confusion_matrix_test": {
+    "tn": 635,
+    "fp": 13,
+    "fn": 30,
+    "tp": 125
+  },
+  "capture_rate_test": {
+    "top_10pct": 0.5032,
+    "top_20pct": 0.8581,
+    "top_30pct": 0.9548
+  },
+  "feature_importance": {
+    "Designation": 0.2617,
+    "Passport": 0.2053,
+    "MaritalStatus": 0.1285,
+    "Occupation": 0.0842,
+    "TypeofContact": 0.038,
+    "Gender": 0.0366,
+    "PreferredPropertyStar": 0.0326,
+    "NumberOfFollowups": 0.0281,
+    "CityTier": 0.028,
+    "NumberOfTrips": 0.0256
+  }
+}
